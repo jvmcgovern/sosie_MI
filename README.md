@@ -23,8 +23,7 @@ Compiling the executables:
    link or a copy of architecture-related templates found in the `macro` directory,
    this file must specify your compiler and options as well as the path to netcdf
 
- * It's important to specify the default INTEGER precision to 4 in your compilation flags (switch `-i4` for *ifort* and `-fdefault-integer-4` for *Gfortran*)
- *    The default integer for gfortran (now 9.4.0 on "pete" machine) is 4, so no compilation flag is needed
+ * It's important to specify the default INTEGER precision to 4 in your compilation flags (switch `-i4` for *ifort* and `-fdefault-integer-4` for *Gfortran*); The default integer for gfortran (now 9.4.0 on "pete" machine) is 4, so no compilation flag is needed
 
  * compile the executables by simply running `make` (gmake)
 
